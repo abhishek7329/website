@@ -12,6 +12,7 @@ h1 {
   text-align: center;
   font-size: 3rem;
   line-height: 1.5;
+  color: #dddddd;
 }
 
 h3 {
@@ -33,9 +34,11 @@ hr {
   font-size: 2rem;
 }
 .container{
+max-width: 100%;
+margin: 0;
+padding: 20px 30px;
 
 
-  background-color: #c8d5b9;
 }
 .contact{
   width: 100%;
@@ -54,7 +57,7 @@ hr {
 }
 
 .fas {
-  color: #557571;
+  color: #dddddd;
 }
 
 .fas:hover {
@@ -119,20 +122,36 @@ hr {
     color: #557571;
     margin-right: 20px;
 }
+/* ul{
+  text-align: center;
+  list-style-type:none;
+  text-align-last: center;
+
+} */
 .points {
   color: #382933;
+  text-align: center;
   font-weight: 300;
-  font-size: 15px;
-  text-align: left;
+  font-size: 16px;
+  line-height: 3;
   font-family: 'Exo 2', sans-serif;
   margin-bottom: 0;
+  margin-left: 0;
+
+
+}
+.points:hover{
+  color: #e94560;
+  text-decoration: none;
+
 }
 .row-bottom{
   margin: 10px;
 }
 
-.ul {
+ul {
   border-bottom: 0;
+list-style-type: none;
 }
 
 .button {
@@ -159,13 +178,19 @@ hr {
 }
 
 .bottom-container {
-  background-color: #faf3dd;
+  background-color: #e4f9f5;
 font-family: 'Merriweather', serif;
 padding: 10px;
   text-align: center;
   line-height: 2;
   width: 100%;
   height: 25%;
+}
+.form-group{
+  margin-left: 20%;
+  margin-right:20%;
+
+  text-align: center;
 }
 
 .trademark {
@@ -193,7 +218,7 @@ padding: 10px;
 }
 
 .contact-me {
-  background-color: #c8d5b9;
+  background-color: #30e3ca;
   margin: 0;
   width: 100%;
   padding: 20px 20px;
@@ -230,8 +255,19 @@ padding: 10px;
 
 /*   ID'S  */
 #title {
-  background-color: #68b0ab;
+  background-color: #00b8a9;
   color: white;
+}
+#services{
+  background-color: #11999e;
+}
+#we-provide{
+  background-color: #30e3ca;
+}
+#why-with-us{
+  background-color: #11999e;
+  padding: 10px 10px;
+  /* margin-bottom: 5%; */
 }
 
 #footer {
